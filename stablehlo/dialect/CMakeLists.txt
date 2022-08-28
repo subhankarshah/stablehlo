@@ -68,6 +68,7 @@ add_mlir_dialect_library(ChloOps
   MLIRInferTypeOpInterface
   MLIRIR
   MLIRQuantDialect
+  MLIRTensorDialect
 )
 
 add_mlir_dialect_library(StablehloRegister
