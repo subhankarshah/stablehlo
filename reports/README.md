@@ -21,3 +21,4 @@ Report date:
  - [2022_11_18_17-04-46](https://htmlpreview.github.io/?https://github.com/GleasonK/stablehlo/blob/ccov/reports/ccov_2022_11_18_17-04-46/index.html) Line coverage: 86.6% [5626/6500], Function coverage: 82.0% [816/995]
  - [2022_11_30_17-46-06](https://htmlpreview.github.io/?https://github.com/GleasonK/stablehlo/blob/ccov/reports/ccov_2022_11_30_17-46-06/index.html) Line coverage: 86.5% [5621/6497], Function coverage: 82.0% [816/995]
  - [2022_12_06_17-27-39](https://htmlpreview.github.io/?https://github.com/GleasonK/stablehlo/blob/ccov/reports/ccov_2022_12_06_17-27-39/index.html) Line coverage: 85.9% [6056/7049], Function coverage: 69.6% [1245/1788]
+ - [2022_12_20_22-24-25](https://htmlpreview.github.io/?https://github.com/GleasonK/stablehlo/blob/ccov/reports/ccov_2022_12_20_22-24-25/index.html) Line coverage: 88.1% [6749/7660], Function coverage: 89.6% [1722/1922]
