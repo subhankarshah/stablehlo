@@ -77,4 +77,4 @@ CCOV_DESC=$(echo "${CCOV_OUT}" | grep "Overall coverage" -A2 | grep -o '[0-9]\+\
 
 echo "Adding readme entry for:"
 echo "  $CCOV_DESC"
-echo " - [$REPORT_DATE](https://htmlpreview.github.io/?https://github.com/GleasonK/stablehlo/blob/ccov/$REPORT_DIR/index.html) $CCOV_DESC" >> reports/README.md
+echo " - [$REPORT_DATE](https://htmlpreview.github.io/?https://github.com/subhankarshah/stablehlo/blob/ccov/$REPORT_DIR/index.html) $CCOV_DESC" >> reports/README.md
