@@ -28,6 +28,7 @@ Tensor evalAndOp(const Tensor &lhs, const Tensor &rhs, Type resultType);
 Tensor evalCeilOp(const Tensor &operand, Type resultType);
 Tensor evalConstantOp(ElementsAttr value);
 Tensor evalCosineOp(const Tensor &operand, Type resultType);
+Tensor evalDivideOp(const Tensor &lhs, const Tensor &rhs, Type resultType);
 Tensor evalFloorOp(const Tensor &operand, Type resultType);
 Tensor evalIotaOp(int64_t iotaDimension, Type resultType);
 Tensor evalMaxOp(const Tensor &lhs, const Tensor &rhs, Type resultType);

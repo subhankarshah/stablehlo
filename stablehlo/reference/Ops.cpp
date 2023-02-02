@@ -76,6 +76,13 @@ Tensor evalCosineOp(const Tensor &operand, Type resultType) {
   return result;
 }
 
+Tensor evalDivideOp(const Tensor &lhs, const Tensor &rhs, Type resultType) {
+  Tensor result(resultType);
+  for (auto it = result.index_begin(); it != result.index_end(); ++it)
+    result.set(*it, lhs.get(*it) / rhs.get(*it));
+  return result;
+}
+
 Tensor evalFloorOp(const Tensor &operand, Type resultType) {
   Tensor result(resultType);
   for (auto it = result.index_begin(); it != result.index_end(); ++it) {
